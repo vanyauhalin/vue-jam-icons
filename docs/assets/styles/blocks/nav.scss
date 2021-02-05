@@ -1,0 +1,10 @@
+.nav {
+  display: grid;
+  gap: $mg-08;
+
+  .nav__item {
+    position: relative;
+    display: flex;
+    grid-row: 1;
+  }
+}

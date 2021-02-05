@@ -1,0 +1,17 @@
+.fade-enter-active {
+  animation: fade $dr-05;
+}
+
+.fade-leave-active {
+  animation: fade $dr-05 reverse;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,70 @@
+/* stylelint-disable */
+
+:root {
+  --cl-white-01:     rgb(255, 255, 255);
+
+  --cl-gray-01:      rgb(247, 247, 248);
+  --cl-gray-02:      rgb(241, 241, 244);
+  --cl-gray-03:      rgb(224, 227, 230);
+  --cl-gray-04:      rgb(157, 163, 168);
+
+  --cl-navy-blue-01: rgb(160, 174, 192);
+  --cl-navy-blue-02: rgb(55, 65, 81);
+  --cl-navy-blue-03: rgb(35, 40, 44);
+
+  --cl-black-01:     rgba(0, 0, 0, .05);
+  --cl-black-02:     rgba(0, 0, 0, .06);
+  --cl-black-03:     rgba(0, 0, 0, .1);
+  --cl-black-04:     rgba(0, 0, 0, .75);
+  --cl-black-05:     rgba(0, 0, 0, .79);
+  --cl-black-06:     rgba(0, 0, 0);
+
+  --cl-green-01:     rgb(167, 243, 208);
+  --cl-green-02:     rgb(16, 185, 129);
+
+  --cl-red-01:       rgb(254, 200, 200);
+  --cl-red-02:       rgb(239, 68, 68);
+}
+
+:root {
+  --code_cl-background: rgb(40, 44, 52);
+  --code_cl-text:       rgb(171, 178, 191);
+
+  --code_cl-comment:    rgb(92, 99, 112);
+  --code_cl-function:   rgb(97, 175, 239);
+  --code_cl-statement:  rgb(198, 120, 221);
+  --code_cl-type:       rgb(229, 192, 123);
+  --code_cl-var:        rgb(224, 108, 117);
+  --code_cl-constant:   rgb(209, 154, 102);
+  --code_cl-string:     rgb(152, 195, 121);
+  --code_cl-operator:   rgb(86, 182, 194);
+
+  --code_cl-bracket-01: var(--code_cl-text);
+  --code_cl-bracket-02: rgb(206, 193, 240);
+  --code_cl-bracket-03: rgb(171, 202, 252);
+}
+
+:root {
+  --cl-neutral-01: var(--cl-white-01);
+  --cl-neutral-02: var(--cl-gray-01);
+  --cl-neutral-03: var(--cl-gray-02);
+  --cl-neutral-04: var(--cl-gray-03);
+  --cl-neutral-05: var(--cl-gray-04);
+  --cl-neutral-06: var(--cl-navy-blue-01);
+  --cl-neutral-07: var(--cl-navy-blue-02);
+  --cl-neutral-08: var(--cl-navy-blue-03);
+  --cl-neutral-09: var(--cl-black-06);
+
+  --cl-primary-01: var(--cl-green-01);
+  --cl-primary-02: var(--cl-green-02);
+
+  --cl-accent-01:  var(--cl-red-01);
+  --cl-accent-02:  var(--cl-red-02);
+
+  --cl-shadow-01:  var(--cl-black-01);
+  --cl-shadow-02:  var(--cl-black-02);
+  --cl-shadow-03:  var(--cl-black-03);
+  --cl-shadow-04:  var(--cl-black-04);
+  --cl-shadow-05:  var(--cl-black-05);
+  --cl-shadow-06:  var(--cl-black-06);
+}

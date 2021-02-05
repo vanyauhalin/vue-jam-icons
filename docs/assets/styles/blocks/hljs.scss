@@ -1,0 +1,43 @@
+.hljs {
+  color: var(--code_cl-text);
+  font-family: "Source Code Pro", monospace;
+
+  .hljs-comment {
+    color: var(--code_cl-comment);
+    font-style: italic;
+  }
+
+  &.js {
+    .hljs-keyword {
+      color: var(--code_cl-statement);
+    }
+
+    .hljs-string {
+      color: var(--code_cl-string);
+    }
+
+    .hljs-built_in {
+      color: var(--code_cl-type);
+    }
+
+    .hljs-attr {
+      color: var(--code_cl-var);
+    }
+  }
+
+  &.html {
+    .hljs-tag {
+      .hljs-name {
+        color: var(--code_cl-var);
+      }
+
+      .hljs-attr {
+        color: var(--code_cl-constant);
+      }
+
+      .hljs-string {
+        color: var(--code_cl-string);
+      }
+    }
+  }
+}

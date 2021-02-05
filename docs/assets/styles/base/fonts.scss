@@ -1,0 +1,29 @@
+@font-face {
+  font-weight: 500;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  src: url("~fonts/SourceCodePro-Medium.woff2") format("woff2"),
+    url("~fonts/SourceCodePro-Medium.woff") format("woff"),
+    url("~fonts/SourceCodePro-Medium.ttf") format("truetype"),
+    url("~fonts/SourceCodePro-Medium.svg#SourceCodePro-Medium") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Source Code Pro";
+  font-style: italic;
+  src: url("~fonts/SourceCodePro-MediumIt.woff2") format("woff2"),
+    url("~fonts/SourceCodePro-MediumIt.woff") format("woff"),
+    url("~fonts/SourceCodePro-MediumIt.ttf") format("truetype"),
+    url("~fonts/SourceCodePro-MediumIt.svg#SourceCodePro-MediumIt")
+      format("svg");
+  font-display: swap;
+}
+
+:root {
+  font-family: system-ui, sans-serif;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
